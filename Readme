@@ -1,0 +1,24 @@
+# Sistema de Gestión de Inventario (Python + SQLite) 📦
+
+Este es un sistema de control de inventario ligero desarrollado en **Python** que utiliza **SQLite** para la persistencia de datos. Permite gestionar productos, controlar existencias y realizar seguimientos de fechas de caducidad de forma sencilla a través de la consola.
+
+## ✨ Características
+
+* **Persistencia de Datos:** Almacenamiento local mediante archivos `.db` (no requiere servidor).
+* **Gestión de Stock:** Funcionalidades para agregar, actualizar cantidades y eliminar registros.
+* **Búsquedas Flexibles:** * Búsqueda por coincidencia parcial de nombre (operador `LIKE`).
+    * Filtro de productos próximos a vencer según una fecha límite.
+* **Lógica de Pedidos:** Descuento automático del inventario al procesar un pedido.
+* **Manejo de Errores:** Implementación de bloques `try-except` para asegurar la estabilidad de la base de datos.
+
+## 🛠️ Requisitos
+
+* **Python 3.x**
+* Biblioteca `sqlite3` (incluida en la librería estándar de Python).
+
+## 🚀 Instalación y Uso
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+   cd nombre-del-repo
